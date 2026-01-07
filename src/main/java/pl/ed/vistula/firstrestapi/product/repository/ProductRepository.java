@@ -8,5 +8,5 @@ import pl.ed.vistula.firstrestapi.product.domain.Product;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
-    // This stays empty! Spring Boot provides all the DB methods for you.
+
 }

@@ -30,7 +30,7 @@ public class ProductController {
         return productService.update(id, product.getName());
     }
     @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT) // This gives you the "204 No Content" required for the task
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteProduct(@PathVariable Long id) {
         productService.delete(id);
     }

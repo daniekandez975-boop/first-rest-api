@@ -15,7 +15,7 @@ public class Product {
 
     private String name;
 
-    public Product() {} // Required by JPA
+    public Product() {}
 
     public Product(String name) {
         this.name = name;
